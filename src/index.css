@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* Tailwind v4: enable class-based dark mode (default is prefers-color-scheme only) */
+@custom-variant dark (&:where(.dark, .dark *)); 
+
+@theme {
+  --color-primary-color: #0e9e9e;
+  --color-secondary-color: #b2d8d8 ;
+  --color-dark-color:#0F0F0F;
+  --color-shadow-color:#161a21;
+  --color-light-color:#e6e3e3;
+;}

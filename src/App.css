@@ -1,0 +1,31 @@
+#login {
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0.5px;
+  margin: 0;
+  min-height: 100vh;
+  background:
+    /* Orange glow (bottom-right) */
+    linear-gradient(
+      330deg,
+      #db3e1f 0%,
+      #992b15 0.5%,
+      #50160a 4%,
+      #1f0e15 8%,
+      rgba(255, 120, 40, 0.25) 25%,
+      #db3e1f 28%,
+      rgba(255, 120, 40, 0.9) 33%,
+      rgba(255, 120, 40, 0.6) 38%,
+      transparent 50%
+    ),
+
+    /* Main dark base gradient */
+    linear-gradient(
+      135deg,
+      #0f1720 0%,
+      #0b1f2a 30%,
+      #133b3d 60%,
+      #133b3d 100%
+    );
+
+
+}
